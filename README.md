@@ -19,9 +19,7 @@
 <details closed>
   <summary> 
     
-   ###  Screenshots
-    
-    </summary>
+   ###  Screenshots </summary>
   
  ![Screenshot](screenshots/1.JPG)
  
