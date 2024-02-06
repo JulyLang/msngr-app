@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.apps.hw2.view.UserMessageViewGroup xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    tools:background="#5A6A2E">
+
+    <ImageView
+        android:id="@+id/userAvatar"
+        android:layout_width="37dp"
+        android:layout_height="37dp"
+        android:layout_marginLeft="@dimen/avatar_margin_left"
+        android:src="@drawable/user_avatar" />
+
+    <com.apps.hw2.view.text.TightTextView
+        android:id="@+id/contactNameTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/name_and_message_margin_left"
+        android:layout_marginTop="@dimen/name_margin_top"
+        android:maxWidth="217dp"
+        android:text="@string/contact_name_sample"
+        android:textColor="@color/contact_name_text_color"
+        android:textSize="@dimen/contact_name_text_size" />
+
+    <com.apps.hw2.view.text.TightTextView
+        android:id="@+id/contactMessageTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/name_and_message_margin_left"
+        android:layout_marginTop="@dimen/message_margin_top"
+        android:layout_marginRight="@dimen/message_margin_right"
+        android:layout_marginBottom="@dimen/message_margin_bottom"
+        android:maxWidth="217dp"
+        android:text="@string/contact_message_sample"
+        android:textColor="@color/message_text_color"
+        android:textSize="@dimen/contact_message_text_size" />
+
+    <com.apps.hw2.view.EmojiFlexBoxLayout
+        android:id="@+id/emojiFlexBoxLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/flexbox_margin_left"
+        android:layout_marginBottom="@dimen/flexbox_margin_bottom">
+
+    </com.apps.hw2.view.EmojiFlexBoxLayout>
+
+</com.apps.hw2.view.UserMessageViewGroup>

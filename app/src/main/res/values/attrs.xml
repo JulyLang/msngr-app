@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="EmojiCounterTextViewGroup">
+        <attr name="customTextColor" format="color"/>
+        <attr name="customEmoji" format="string"/>
+        <attr name="customCounter" format="string"/>
+        <attr name="customTextSize" format="dimension"/>
+    </declare-styleable>
+</resources>

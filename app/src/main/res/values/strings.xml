@@ -1,0 +1,22 @@
+<resources>
+
+    <string name="app_name">HW 4</string>
+    <string name="contact_name_sample">Darrell Steward</string>
+    <string name="contact_message_sample">Привет! lorem ipsum test message dalshe zabil</string>
+    <string name="emoji_text_sample">😀</string>
+    <string name="counter_text_sample">5</string>
+
+    <!-- menu -->
+    <string name="action_channels_menu">Channels</string>
+    <string name="action_people_menu">People</string>
+    <string name="action_profile_menu">Profile</string>
+
+
+    <string name="write_hint">Написать...</string>
+    <string name="messages_count">%d mes</string>
+
+    <string name="subscribed">  Subscribed  </string>
+    <string name="all_streams">  All streams  </string>
+    <string name="topic_name">Topic: #%s</string>
+
+</resources>

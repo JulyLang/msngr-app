@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.apps.hw2.view.EmojiCounterTextViewGroup xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/emoji_counter_margin_top"
+    android:layout_marginRight="@dimen/emoji_counter_margin_right"
+    android:paddingLeft="@dimen/emoji_counter_padding_left"
+    android:paddingTop="@dimen/emoji_counter_padding_top"
+    android:paddingRight="@dimen/emoji_counter_padding_right"
+    android:paddingBottom="@dimen/emoji_counter_padding_bottom"
+    app:customTextColor="@color/emoji_counter_text_color"
+    app:customTextSize="@dimen/emoji_counter_custom_text_size"
+    tools:customCounter="@string/counter_text_sample"
+    tools:customEmoji="@string/emoji_text_sample" />

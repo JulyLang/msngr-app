@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="EmojiBottomSheetDialogTheme" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/EmojiModalStyle</item>
+    </style>
+
+    <style name="EmojiModalStyle" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@drawable/emoji_bottom_sheet_background</item>
+    </style>
+
+    <style name="CircleImageView" parent="">
+        <item name="cornerSize">50%</item>
+    </style>
+
+    <style name="Tabs" parent="@android:style/TextAppearance.Widget.TabWidget">
+        <item name="android:textSize">22sp</item>
+    </style>
+
+</resources>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".profile.ProfileFragment"
+    tools:background="@color/bg_color">
+
+    <ImageView
+        android:id="@+id/avatarImageView"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="113dp"
+        android:layout_width="185dp"
+        android:layout_height="185dp"
+        android:contentDescription="User avatar big"
+        android:src="@drawable/user_avatar_big"/>
+
+    <TextView
+        android:id="@+id/nameTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Darrell Steward"
+        android:textColor="#FFFFFF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        app:layout_constraintTop_toBottomOf="@id/avatarImageView"
+        android:textSize="32sp"/>
+
+    <TextView
+        android:id="@+id/statusTextView"
+        android:layout_width="wrap_content"
+        android:text="In a meeting"
+        android:textSize="20sp"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toStartOf="@id/onlineStatusTextView"
+        android:gravity="end"
+        android:layout_marginEnd="21dp"
+        app:layout_constraintTop_toBottomOf="@id/nameTextView"
+        android:textColor="#BCBCBC"/>
+
+    <TextView
+        android:id="@+id/onlineStatusTextView"
+        android:textSize="16sp"
+        android:text="online"
+        app:layout_constraintBaseline_toBaselineOf="@id/statusTextView"
+        android:textColor="#4AB54D"
+        app:layout_constraintEnd_toEndOf="@id/avatarImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/logoutTextView"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_width="wrap_content"
+        android:text="Log out"
+        android:background="@drawable/logout_bg"
+        android:textSize="20sp"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:paddingHorizontal="56dp"
+        android:paddingVertical="14dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="65dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
